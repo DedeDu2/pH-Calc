@@ -1,0 +1,9 @@
+import math
+
+def calculate_ph(H):
+    return -math.log10(H)
+
+# Example usage:
+H = 1e-7  # Hydrogen ion concentration (M)
+ph = calculate_ph(H)
+print("pH:", ph)
